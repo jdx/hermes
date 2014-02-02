@@ -1,0 +1,1 @@
+docker build -t hermes . && docker run -t -i -p 22021:22021 -v /var/run/:/var/host_run/ hermes
